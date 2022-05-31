@@ -32,7 +32,7 @@ while(nombreUsuario != "juliandasc"){
     nombreUsuario = prompt("ingrese nombre de usuario correcto")
 }
 */
-
+/*
 
 //ENTREGABLE OBLIGATORIO 1
 
@@ -95,3 +95,4 @@ const productoladrillo = new Producto ("Ladrillo de goma", 122558, "elemento lad
     agregarProducto()
    
 
+*/
