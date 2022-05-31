@@ -78,12 +78,12 @@ const filtrarProductos = () => {
         case "random":
             alert("usted eligio los productos del tipo " + tipo)
 
-            // tenes dos formas de hacerlo
+            
 
             // INICIO forma 1
 
             arrayProducto.forEach(element => {
-                // tene en cuenta, que element sera cada uno de los productos del array de forma individual
+                
                 if (element.tipo == tipo) {
                     console.log("se agrego al carrito el producto " + element.nombre + " cuyo valor es: " + element.precio)
                     carrito.push(element)
@@ -94,7 +94,7 @@ const filtrarProductos = () => {
 
             // inicio forma 2
 
-            // lo mismo pero con una funcion .map() (si queres despues la agrego)
+            // lo mismo pero con una funcion .map() 
 
             // final forma 2
 
@@ -102,7 +102,7 @@ const filtrarProductos = () => {
         case "hogar":
             alert("usted eligio los productos del tipo " + tipo)
             arrayProducto.forEach(element => {
-                // tene en cuenta, que element sera cada uno de los productos del array de forma individual
+                
                 if (element.tipo == tipo) {
                     console.log("se agrego al carrito el producto " + element.nombre + " cuyo valor es: " + element.precio)
                     carrito.push(element)
@@ -111,7 +111,7 @@ const filtrarProductos = () => {
         case "ropa":
             alert("usted eligio los productos del tipo " + tipo)
             arrayProducto.forEach(element => {
-                // tene en cuenta, que element sera cada uno de los productos del array de forma individual
+              
                 if (element.tipo == tipo) {
                     console.log("se agrego al carrito el producto " + element.nombre + " cuyo valor es: " + element.precio)
                     carrito.push(element)
