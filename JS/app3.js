@@ -1,6 +1,6 @@
 const productoElegido = () => {
 
-    let producto = Number.parseInt(prompt("¿Que producto desea comprar?"));
+    let producto = prompt("¿Que producto desea comprar?");
   
     mensaje(producto);
   
